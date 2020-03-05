@@ -10,7 +10,7 @@ const Apartment = ({apartment}) => (
               </svg>
           </div>
       </div>
-      <div className="p-4">
+      <div className="p-4 h-40">
           <p className="uppercase tracking-wide text-sm font-bold text-gray-700">{apartment.location.name}</p>
           <p className="text-3xl text-gray-900">{apartment.price.currency} {apartment.price.total}</p>
           <p className="text-gray-700">{apartment.details.name}</p>
